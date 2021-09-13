@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+// ............ global variable.........
+$text-white: #fff;
+$text-black: #000;
+$text-40: #403d50 !important;
+$text-d0: #d03a3b;
+$text-83: #838291;
+$text-85: #851801;
+$text-a5: #a5250a;
+$text-2a: #2a263c !important;
+$text-57: #575467;
+$text-f5: #f5f2f3;
+$text-3d: #3d394d;
+$transparent: transparent;
+$size-15: 15px;
+$size-16: 16px;
+$size-17: 17px;
+$size-18: 18px;
+$size-46: 46px;
+$size-52: 52px;
+$size-30: 30px;
+$size-113: 113px;
+// ............ global variable......... end
+
+// ...........global selector..........
+h1 {
+  font-size: $size-52;
+  font-weight: 700;
+  line-height: 85.7px;
+  color: $text-2a;
+  & > span {
+    font-size: $size-52;
+    font-weight: 700;
+    line-height: 85.7px;
+  }
+}
+h2 {
+  font-size: $size-46;
+  font-weight: 700;
+  & > span {
+    font-size: $size-46;
+    font-weight: 700;
+  }
+}
+h4 {
+  line-height: 32px;
+}
+p {
+  font-size: $size-18;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+// color........
+.text_40 {
+  color: $text-40;
+}
+.text_85 {
+  color: $text-85;
+}
+.text_2a {
+  color: $text-2a;
+}
+.text_83 {
+  color: $text-83;
+}
+.text_57 {
+  color: $text-57;
+}
+// background......
+.bg_transparent {
+  background: $transparent;
+}
+.bg_linear_a8 {
+  background: linear-gradient(#a80304 100%, #cf393a 100%) !important;
+}
+.bg_f5 {
+  background: $text-f5;
+}
+.bg_3d {
+  background: $text-3d;
+}
+.bg_footer {
+  background: linear-gradient(
+    97.13deg,
+    rgba(42, 38, 60, 0.9) 5.96%,
+    #2a263c 97.78%
+  );
+}
+.bg_2a {
+  background: $text-2a;
+}
+// fonts.........
+.font_size_18 {
+  font-size: 18px;
+}
+.font_size_19 {
+  font-size: 19px;
+}
+.font_size_30 {
+  font-size: 30px;
+}
+.font_size_113 {
+  font-size: 113px;
+}
+.font_size_24 {
+  font-size: 24px;
+}
+.font_size_23 {
+  font-size: 23px;
+}
+.font_size_39 {
+  font-size: 39px;
+}
+.font_size_70 {
+  font-size: 70px;
+}
+
+// font-weight
+.weight_300 {
+  font-weight: 300 !important;
+}
+.weight_400 {
+  font-weight: 400;
+}
+.weight_500 {
+  font-weight: 500;
+}
+.weight_700 {
+  font-weight: 700;
+}
+.weight_900 {
+  font-weight: 900;
+}
+
+// shadow..........
+.focus_shadow_off:focus {
+  box-shadow: none;
+}
+.shadow_16{
+    box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+}
+// height, width size......
+
+// ...........global selector..........End
+
+// ...........global component..........
+.navbar_custom_component {
+  .nav-link {
+    color: $text-40;
+  }
+}
+
+// btn component
+.btn_165 {
+  background: rgba(165, 37, 10, 0.1) !important;
+  color: rgba(165, 37, 10, 1) !important;
+}
+
+// 3_up
+.up_3 {
+  color: $text-85;
+  position: relative;
+  font-weight: 900;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 9px;
+    left: 0;
+    bottom: 20px;
+    background: #ecdfe0;
+  }
+  & ~ span {
+    position: relative;
+    top: -30px;
+  }
+}
+
+// illustrate_aToz section
+.illustrate_aToz {
+  height: 1194px;
+  position: relative;
+  .design_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .rectable_bg,
+    .human_draw {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .rectable_bg {
+      z-index: -1;
+    }
+  }
+  .col_content_of_draw {
+    position: relative;
+    .a_z_draw {
+      position: absolute;
+      top: -47%;
+      left: 0;
+    }
+  }
+}
+
+// form component
+
+.form-check-input[type="radio"]:after {
+  background: #2a263c;
+}
+.form-check-input[type="radio"]:checked:after {
+  background: #d03a3b;
+}
+// ...........global component..........End

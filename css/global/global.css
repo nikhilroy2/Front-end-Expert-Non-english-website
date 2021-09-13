@@ -1,0 +1,224 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 85.7px;
+  color: #2a263c !important;
+}
+
+h1 > span {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 85.7px;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+h2 > span {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+h4 {
+  line-height: 32px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.text_40 {
+  color: #403d50 !important;
+}
+
+.text_85 {
+  color: #851801;
+}
+
+.text_2a {
+  color: #2a263c !important;
+}
+
+.text_83 {
+  color: #838291;
+}
+
+.text_57 {
+  color: #575467;
+}
+
+.bg_transparent {
+  background: transparent;
+}
+
+.bg_linear_a8 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #a80304), to(#cf393a)) !important;
+  background: linear-gradient(#a80304 100%, #cf393a 100%) !important;
+}
+
+.bg_f5 {
+  background: #f5f2f3;
+}
+
+.bg_3d {
+  background: #3d394d;
+}
+
+.bg_footer {
+  background: linear-gradient(97.13deg, rgba(42, 38, 60, 0.9) 5.96%, #2a263c 97.78%);
+}
+
+.bg_2a {
+  background: #2a263c !important;
+}
+
+.font_size_18 {
+  font-size: 18px;
+}
+
+.font_size_19 {
+  font-size: 19px;
+}
+
+.font_size_30 {
+  font-size: 30px;
+}
+
+.font_size_113 {
+  font-size: 113px;
+}
+
+.font_size_24 {
+  font-size: 24px;
+}
+
+.font_size_23 {
+  font-size: 23px;
+}
+
+.font_size_39 {
+  font-size: 39px;
+}
+
+.font_size_70 {
+  font-size: 70px;
+}
+
+.weight_300 {
+  font-weight: 300 !important;
+}
+
+.weight_400 {
+  font-weight: 400;
+}
+
+.weight_500 {
+  font-weight: 500;
+}
+
+.weight_700 {
+  font-weight: 700;
+}
+
+.weight_900 {
+  font-weight: 900;
+}
+
+.focus_shadow_off:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.shadow_16 {
+  -webkit-box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+          box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+}
+
+.navbar_custom_component .nav-link {
+  color: #403d50 !important;
+}
+
+.btn_165 {
+  background: rgba(165, 37, 10, 0.1) !important;
+  color: #a5250a !important;
+}
+
+.up_3 {
+  color: #851801;
+  position: relative;
+  font-weight: 900;
+}
+
+.up_3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 9px;
+  left: 0;
+  bottom: 20px;
+  background: #ecdfe0;
+}
+
+.up_3 ~ span {
+  position: relative;
+  top: -30px;
+}
+
+.illustrate_aToz {
+  height: 1194px;
+  position: relative;
+}
+
+.illustrate_aToz .design_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.illustrate_aToz .design_wrapper .rectable_bg,
+.illustrate_aToz .design_wrapper .human_draw {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.illustrate_aToz .design_wrapper .rectable_bg {
+  z-index: -1;
+}
+
+.illustrate_aToz .col_content_of_draw {
+  position: relative;
+}
+
+.illustrate_aToz .col_content_of_draw .a_z_draw {
+  position: absolute;
+  top: -47%;
+  left: 0;
+}
+
+.form-check-input[type="radio"]:after {
+  background: #2a263c;
+}
+
+.form-check-input[type="radio"]:checked:after {
+  background: #d03a3b;
+}
+/*# sourceMappingURL=global.css.map */
