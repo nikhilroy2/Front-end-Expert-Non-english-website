@@ -4,6 +4,10 @@
   font-weight: 400;
   font-size: 16px;
 }
+header{
+    top: 0px;
+    z-index: 10000;
+}
 
 // ............ global variable.........
 $text-white: #fff;

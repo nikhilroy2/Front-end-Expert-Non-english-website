@@ -6,6 +6,11 @@
   font-size: 16px;
 }
 
+header {
+  top: 0px;
+  z-index: 10000;
+}
+
 h1 {
   font-size: 52px;
   font-weight: 700;
